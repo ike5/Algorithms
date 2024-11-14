@@ -11,6 +11,8 @@ def selection_sort(nums, nums_size):
         nums[index_smallest] = temp
 
 
+
+
 if __name__ == '__main__':
     nums = [2, 9, 3, 1, 0, 5, 4, 7, 6]
     nums_size = len(nums)
