@@ -1,4 +1,6 @@
 # O(N^2) - Quadratic
+import random_list_module
+
 
 def selection_sort(nums, nums_size):
     for i in range(nums_size):
@@ -11,10 +13,8 @@ def selection_sort(nums, nums_size):
         nums[index_smallest] = temp
 
 
-
-
 if __name__ == '__main__':
-    nums = [2, 9, 3, 1, 0, 5, 4, 7, 6]
+    nums = random_list_module.generate_random_list()
     nums_size = len(nums)
 
     selection_sort(nums, nums_size)
