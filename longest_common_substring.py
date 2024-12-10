@@ -14,7 +14,8 @@ def longest_common_substring(str1: str, str2: str) -> str:
             else:
                 matrix[row][col] = 0
     substring_length, row_index = max_value_in_matrix(matrix)
-    start_index = row_index - substring_length +1
+    start_index = row_index - substring_length + 1
+    return str1[start_index: start_index + substring_length]
 
 
 def max_value_in_matrix(matrix: [[]]) -> (int, int):
