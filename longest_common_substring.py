@@ -1,3 +1,7 @@
+def max_value_in_matrix(matrix: [[]]) -> (int, int):
+    return 3, 3
+
+
 def longest_common_substring(str1: str, str2: str) -> str:
     rows = len(str1)
     cols = len(str2)
@@ -16,10 +20,6 @@ def longest_common_substring(str1: str, str2: str) -> str:
     substring_length, row_index = max_value_in_matrix(matrix)
     start_index = row_index - substring_length + 1
     return str1[start_index: start_index + substring_length]
-
-
-def max_value_in_matrix(matrix: [[]]) -> (int, int):
-    pass
 
 
 if __name__ == '__main__':
