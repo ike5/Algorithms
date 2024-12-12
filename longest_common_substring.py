@@ -23,4 +23,4 @@ def longest_common_substring(str1: str, str2: str) -> str:
 
 
 if __name__ == '__main__':
-    print(longest_common_substring("Look", "zyBooks"))
+    print(longest_common_substring("All is forgiven in time", "thanksgiving is the best time of year"))
