@@ -14,6 +14,4 @@ class Node:
     def insert(self, tree, node):
         if tree.root is None:
 
-
-if __name__ == "__main__":
-    Node.
+            pass
