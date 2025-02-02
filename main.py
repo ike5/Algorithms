@@ -1,6 +1,6 @@
-def main():
-    print("hello world!")
+import Node
+
 
 
 if __name__ == "__main__":
-    main()
+    pass
